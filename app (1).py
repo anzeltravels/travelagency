@@ -4,8 +4,8 @@ from email.message import EmailMessage
 
 app = Flask(__name__)
 
-SENDER_EMAIL = "tripitjha@gmail.com"
-SENDER_PASSWORD = "your_app_password_here"
+SENDER_EMAIL = "anzeltravels@gmail.com"
+SENDER_PASSWORD = "coxn qpxo cqyk zwxm"
 RECEIVER_EMAIL = "anzeltravels@gmail.com"
 
 @app.route('/')
