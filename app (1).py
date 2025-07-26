@@ -10,7 +10,7 @@ RECEIVER_EMAIL = "anzeltravels@gmail.com"
 
 @app.route('/')
 def contact_form():
-    return render_template("contact.html")
+    return render_template("index.html")
 
 @app.route('/submit', methods=["POST"])
 def submit():
