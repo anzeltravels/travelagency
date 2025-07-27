@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Form</title>
+  <style>
+    body { font-family: Arial; padding: 40px; background: #f9f9f9; }
+    form { background: white; padding: 20px; border-radius: 8px; width: 100%; max-width: 500px; margin: auto; }
+    input, textarea { width: 100%; margin: 10px 0; padding: 10px; border: 1px solid #ccc; border-radius: 4px; }
+    button { background: green; color: white; padding: 10px 15px; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background: darkgreen; }
+  </style>
+</head>
+<body>
+  <h2>Contact Us</h2>
+  <form action="/submit" method="post">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</body>
+</html>
